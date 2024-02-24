@@ -1,0 +1,19 @@
+// Animaciones
+@keyframes rotateLogo {
+    0% {
+        transform: rotate(0deg); // Rotación inicial
+    }
+    100% {
+        transform: rotate(360deg); // Rotación completa (360 grados)
+    }
+}
+
+@keyframes moving {
+    0% {
+        transform: rotate(5deg); /* Rotación de 5 grados al hacer hover */
+    }
+
+    100% {
+        transform: rotate(-5deg); /* Rotación de 5 grados al hacer hover */
+    }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 468px) {
+    .navbar {
+        position: static;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+}

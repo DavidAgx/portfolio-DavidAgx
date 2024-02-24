@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Aguilera</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Link para los iconos -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/styles.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <label
+            class="switch navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <input checked="" type="checkbox" class="toggle" />
+            <span class="slider"></span>
+            <span class="card-side"></span>
+          </label>
+          <img class="logo" src="./imgs/logo.png" width="80px" height="80px" />
+          <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
+            <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item me-5">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" aria-current="page" href="#about">Quién soy</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" aria-current="page" href="#knowledge">Conocimientos</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" aria-current="page" href="#links">Enlaces de interés</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" aria-current="page" href="#contact">Contacto</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Masthead-->
+      <header class="masthead" id="home">
+        <div class="container px-4 px-lg-5 h-100 justify-content-center" id="about">
+          <div
+            class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-12 align-self-end mt-5">
+              <h1 class="text-white font-weight-bold">
+                ¡ Bienvenido a mi Portfolio !
+              </h1>
+              <hr class="divider" />
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+              <p class="text-white-75 mb-5">
+                Mi nombre es <b>David Aguilera</b> y es de mi agrado que estés aquí.
+                Esta página es solo un trocito de mis creaciones así que sigue
+                <i>"scrolleando"</i> y no te pierdas nada !
+              </p>
+            </div>
+            <div class="col-lg-8 mb-5 justify-content-center">
+              <div class="flip">
+                <img class="imagen-david" src="./imgs/david.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- About-->
+      <section class="page-section p-2" id="knowledge">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="text-white mt-2">Conocimientos</h2>
+              <hr class="divider divider-light" />
+              <p class="lenguaje text-white-75 mb-4 text-center">
+                Durante los últimos 4 años me he dedicado a estudiar, tanto en
+                <b class="estudios"><a href="https://www.iescarthagospartaria.es/" target="_blank">Grado Medio</a></b>, como en
+                <b class="estudios"><a href="https://iesdosmares.es/"  target="_blank">Grado Superior</a></b>,
+                una infinidad de lenguajes, conceptos, entornos de desarrollo, buenas prácticas, etc. 
+                Por aquí os dejo un breve resumen de ello:
+              </p>
+              
+              <div class="row">
+                <div class="col-md-8">
+                  <h3 class="text-white">Front-End Languages:</h3>
+                  <ul class="text-white-75 p-3">
+                    <li class="lenguaje">
+                      <a href="https://www.java.com" target="_blank"
+                        ><i class="fab fa-java p-3"></i> Java</a
+                      >
+                    </li>
+                    <li class="lenguaje">
+                      <a href="https://www.javascript.com" target="_blank"
+                        ><i class="fab fa-js p-3"></i> JavaScript</a
+                      >
+                    </li>
+                    <li class="lenguaje">
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                        target="_blank"
+                        ><i class="fab fa-html5 p-3"></i> HTML</a
+                      >
+                    </li>
+                    <li class="lenguaje">
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                        target="_blank"
+                        ><i class="fab fa-css3-alt p-3"></i> CSS</a
+                      >
+                    </li>
+                    <li class="lenguaje">
+                      <a href="https://getbootstrap.com" target="_blank"
+                        ><i class="fab fa-bootstrap p-3"></i> Bootstrap</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-8">
+                  <h3 class="text-white">Back-End Languages:</h3>
+                  <ul class="text-white-75 p-3">
+                    <li class="lenguaje">
+                      <a href="https://www.python.org" target="_blank"
+                        ><i class="fab fa-python p-3"></i> Python (Django
+                        framework)</a
+                      >
+                    </li>
+                    <li class="lenguaje">
+                      <a href="https://www.php.net" target="_blank"
+                        ><i class="fab fa-php p-3"></i> PHP</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-8">
+                  <h3 class="text-white">Other Languages:</h3>
+                  <ul class="text-white-75 p-3">
+                    <li class="lenguaje">
+                      <a href="https://www.docker.com" target="_blank"
+                        ><i class="fab fa-docker p-3"></i> Docker</a
+                      >
+                    </li>
+                    <li class="lenguaje">
+                      <a href="https://www.mysql.com" target="_blank"
+                        ><i class="fas fa-database p-3"></i> MySQL</a
+                      >
+                    </li>
+                    <li class="lenguaje">
+                      <a
+                        href="https://es.linkedin.com/pulse/agile-y-scrum-cu%C3%A1les-son-sus-diferencias-mobiliza-academy"
+                        target="_blank"
+                        ><i class="fas fa-clock p-3"></i> Agile and Scrum
+                        methodologies</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services-->
+      <section class="page-section2 p-2 mt-3 mb-4" id="links">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Enlaces de interés</h2>
+            <hr class="divider" />
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <h3 class="h4 mb-2">LinkedIn</h3>
+                        <p class="text-muted mb-0">
+                            Encuentra aquí mi perfil de LinkedIn
+                        </p>
+                        <br>
+                        <a href="https://www.linkedin.com/in/david-aguilera-jimeno-0a5a28296/" target="_blank">
+                            <img src="./imgs/logos rrss/icons8-linkedin-69.png" alt="" class="animated-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <i class="bi-laptop fs-1 text-primary"></i>
+                        </div>
+                        <h3 class="h4 mb-2">GitHub</h3>
+                        <p class="text-muted mb-0">
+                            Aquí encontrarás mi repositorio de GitHub
+                        </p>
+                        <br>
+                        <a href="https://github.com/DavidAgx" target="_blank">
+                            <img src="./imgs/logos rrss/icons8-github-94.png" alt="" class="animated-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <i class="bi-globe fs-1 text-primary"></i>
+                        </div>
+                        <h3 class="h4 mb-2">Twitter</h3>
+                        <p class="text-muted mb-0">
+                            Conóceme un poco más siguiéndome en Twitter
+                        </p>
+                        <br>
+                        <a href="https://twitter.com/?lang=es" target="_blank">
+                            <img src="./imgs/logos rrss/icons8-twitter-69.png" alt="" class="animated-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <!-- Contact-->
+      <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5 p-4">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6 text-center">
+              <h2 class="mt-0">Contacta conmigo</h2>
+              <hr class="divider" />
+              <p class="text-muted mb-5">
+                <b>¿ Tienes alguna duda sobre mí ?</b>  En este formulario podrás enviarme tus dudas, consultas u otras gestiones
+              </p>
+            </div>
+          </div>
+          <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+            <div class="col-lg-6">
+              <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <!-- Name input-->
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="name"
+                    type="text"
+                    placeholder="Enter your name..."
+                    data-sb-validations="required"
+                  />
+                  <label for="name">Nombre</label>
+                  <div
+                    class="invalid-feedback"
+                    data-sb-feedback="name:required"
+                  >
+                    Nombre es obligatorio
+                  </div>
+                </div>
+                <!-- Email address input-->
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="email"
+                    type="email"
+                    placeholder="name@example.com"
+                    data-sb-validations="required,email"
+                  />
+                  <label for="email">Dirección de Email</label>
+                  <div
+                    class="invalid-feedback"
+                    data-sb-feedback="email:required"
+                  >
+                    Es necesario un email.
+                  </div>
+                  <div class="invalid-feedback" data-sb-feedback="email:email">
+                    El email no es valido.
+                  </div>
+                </div>
+                <!-- Phone number input-->
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="phone"
+                    type="tel"
+                    placeholder="(123) 456-7890"
+                    data-sb-validations="required"
+                  />
+                  <label for="phone">Telefono móvil</label>
+                  <div
+                    class="invalid-feedback"
+                    data-sb-feedback="phone:required"
+                  >
+                    Es necesario un teléfono.
+                  </div>
+                </div>
+                <!-- Message input-->
+                <div class="form-floating mb-3">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    type="text"
+                    placeholder="Enter your message here..."
+                    style="height: 10rem"
+                    data-sb-validations="required"
+                  ></textarea>
+                  <label for="message">Mensaje</label>
+                  <div
+                    class="invalid-feedback"
+                    data-sb-feedback="message:required"
+                  >
+                    Escribe tu mensaje.
+                  </div>
+                </div>
+                <!-- Submit success message-->
+                <!---->
+                <!-- This is what your users will see when the form-->
+                <!-- has successfully submitted-->
+                <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center mb-3">
+                    <div class="fw-bolder">Formulario completo!</div>
+                    <br />
+                    <a href="https://startbootstrap.com/solution/contact-forms"
+                      >https://startbootstrap.com/solution/contact-forms</a
+                    >
+                  </div>
+                </div>
+                <!-- Submit Button-->
+                <div class="d-grid justify-content-center">
+                  <button type="button" class="button">Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer
+        class="d-flex flex-wrap justify-content-center align-items-center text-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="text-muted justify-content-center">2024, David Aguilera</span>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
